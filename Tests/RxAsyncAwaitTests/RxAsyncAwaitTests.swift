@@ -6,6 +6,6 @@ final class RxAsyncAwaitTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(RxAsyncAwait().text, "Hello, World!")
+        // XCTAssertEqual(RxAsyncAwait().text, "Hello, World!")
     }
 }
