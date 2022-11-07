@@ -26,6 +26,9 @@ let package = Package(
             dependencies: ["RxSwift"]),
         .testTarget(
             name: "RxAsyncAwaitTests",
-            dependencies: ["RxAsyncAwait"]),
+            dependencies: [
+                "RxAsyncAwait",
+                .product(name: "RxTest", package: "RxSwift"),
+            ]),
     ]
 )
