@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'RxAsyncAwait'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'RxSwift extensions for using asynchronous functions on streams.'
   s.homepage         = 'https://github.com/byoth/RxAsyncAwait'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
