@@ -3,7 +3,7 @@ name: Codecov
 on:
   push:
     branches:
-      - github-actions
+      - main
   pull_request:
     branches:
       - main
